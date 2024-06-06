@@ -1,21 +1,194 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Zusammenfassung Modul 293</title>
-
+<meta charset="UTF-8">
+<title>Zusammenfassung Modul 293</title>
 </head>
 <body>
-  <header>
-    
-  </header>
-  <nav>
-    
-  </nav>
-  <h1>Zusammenfassung Modul 293</h1>
-
+<header>
+<h1>Zusammenfassung Modul 293</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#lu1">Learningunit 1: HTML Basics und Werkzeuge</a></li>
+<li><a href="#lu2">Learningunit 2: Aufbau HTML Datei</a></li>
+<li><a href="#lu3">Learningunit 3: Blöcke und Inhalte</a></li>
+<li><a href="#lu4a">Learningunit 4a: Coding Style</a></li>
+<li><a href="#lu4b">Learningunit 4b: Statischer Coding Style</a></li>
+<li><a href="#lu5">Learningunit 5: HTTP und Adressen</a></li>
+<li><a href="#lu6">Learningunit 6: Formularelemente</a></li>
+<li><a href="#lu7">Learningunit 7: Erweiterte Formularelemente</a></li>
+<li><a href="#lu8">Learningunit 8: Navigation (sehr basics)</a></li>
+</ul>
+</nav>
+ 
+  <section id="lu1">
+<h2>Learningunit 1: HTML Basics und Werkzeuge</h2>
+<p>In dieser Einheit lernen Sie die Grundlagen von HTML und die wichtigsten Werkzeuge kennen, die für die Webentwicklung benötigt werden.</p>
+<pre><code>&lt;!-- Beispielcode für HTML Basics --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Meine erste Webseite&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+ 
+  <section id="lu2">
+<h2>Learningunit 2: Aufbau HTML Datei</h2>
+<p>Diese Einheit behandelt die grundlegende Struktur einer HTML-Datei, einschließlich der Bedeutung von <code>&lt;!DOCTYPE&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, und <code>&lt;body&gt;</code>.</p>
+<pre><code>&lt;!-- Beispielcode für den Aufbau einer HTML-Datei --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="de"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Beispielseite&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Dies ist der Inhalt der Seite.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+ 
+  <section id="lu3">
+<h2>Learningunit 3: Blöcke und Inhalte</h2>
+<p>Hier lernen Sie die verschiedenen Block- und Inline-Elemente in HTML kennen und wie sie verwendet werden.</p>
+<pre><code>&lt;!-- Beispielcode für Blöcke und Inhalte --&gt;
+&lt;div&gt;
+&lt;h2&gt;Ein Blockelement&lt;/h2&gt;
+&lt;p&gt;Dies ist ein Absatz innerhalb eines Div-Blocks.&lt;/p&gt;
+&lt;span&gt;Dies ist ein Inline-Element.&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</section>
+ 
+  <section id="lu4a">
+<h2>Learningunit 4a: Coding Style</h2>
+<p>In dieser Einheit wird der allgemeine Coding Style in HTML behandelt, einschließlich der Einrückung und der Benennungskonventionen.</p>
+<pre><code>&lt;!-- Beispielcode für Coding Style --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="de"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Guter Coding Style&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Sauberer Code&lt;/h1&gt;
+&lt;p&gt;Achten Sie auf konsistente Einrückung.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+ 
+  <section id="lu4b">
+<h2>Learningunit 4b: Statischer Coding Style</h2>
+<p>Diese Einheit fokussiert sich auf den statischen Coding Style, der speziell für statische Webseiten gilt.</p>
+<pre><code>&lt;!-- Beispielcode für statischen Coding Style --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="de"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Statischer Coding Style&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Statischer Content&lt;/h1&gt;
+&lt;p&gt;Dieser Inhalt ist statisch und ändert sich nicht.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+</section>
+ 
+  <section id="lu5">
+<h2>Learningunit 5: HTTP und Adressen</h2>
+<p>In dieser Einheit lernen Sie die Grundlagen von HTTP und URLs, einschließlich der Verwendung der Methoden GET und POST sowie dem Verlinken von Adressen und Bildern.</p>
+<pre><code>&lt;!-- Beispielcode für HTTP und Adressen --&gt;
+&lt;!-- GET-Methode --&gt;
+&lt;form action="/example" method="get"&gt;
+&lt;label for="query"&gt;Suche:&lt;/label&gt;
+&lt;input type="text" id="query" name="query"&gt;
+&lt;button type="submit"&gt;Senden&lt;/button&gt;
+&lt;/form&gt;
+ 
+&lt;!-- POST-Methode --&gt;
+&lt;form action="/submit" method="post"&gt;
+&lt;label for="name"&gt;Name:&lt;/label&gt;
+&lt;input type="text" id="name" name="name"&gt;
+&lt;button type="submit"&gt;Senden&lt;/button&gt;
+&lt;/form&gt;
+ 
+&lt;!-- Bilder verlinken --&gt;
+&lt;img src="https://example.com/bild.jpg" alt="Beispielbild"&gt;
+&lt;a href="https://example.com"&gt;Link zur Beispielseite&lt;/a&gt;
+</code></pre>
+</section>
+ 
+  <section id="lu6">
+<h2>Learningunit 6: Formularelemente</h2>
+<p>Diese Einheit behandelt die grundlegenden Formularelemente in HTML, wie Textfelder, Schaltflächen und Auswahlfelder.</p>
+<pre><code>&lt;!-- Beispielcode für Formularelemente --&gt;
+&lt;form&gt;
+&lt;label for="name"&gt;Name:&lt;/label&gt;
+&lt;input type="text" id="name" name="name"&gt;
+&lt;br&gt;
+&lt;label for="email"&gt;E-Mail:&lt;/label&gt;
+&lt;input type="email" id="email" name="email"&gt;
+&lt;br&gt;
+&lt;label for="gender"&gt;Geschlecht:&lt;/label&gt;
+&lt;select id="gender" name="gender"&gt;
+&lt;option value="male"&gt;Männlich&lt;/option&gt;
+&lt;option value="female"&gt;Weiblich&lt;/option&gt;
+&lt;/select&gt;
+&lt;br&gt;
+&lt;button type="submit"&gt;Absenden&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+</section>
+ 
+  <section id="lu7">
+<h2>Learningunit 7: Erweiterte Formularelemente</h2>
+<p>Hier lernen Sie erweiterte Formularelemente kennen, wie z.B. Dateiauswahl, Farbauswahl und Bereiche.</p>
+<pre><code>&lt;!-- Beispielcode für erweiterte Formularelemente --&gt;
+&lt;form&gt;
+&lt;label for="date"&gt;Datum:&lt;/label&gt;
+&lt;input type="date" id="date" name="date"&gt;
+&lt;br&gt;
+&lt;label for="color"&gt;Farbe:&lt;/label&gt;
+&lt;input type="color" id="color" name="color"&gt;
+&lt;br&gt;
+&lt;label for="range"&gt;Bereich:&lt;/label&gt;
+&lt;input type="range" id="range" name="range" min="0" max="100"&gt;
+&lt;br&gt;
+&lt;label for="file"&gt;Datei hochladen:&lt;/label&gt;
+&lt;input type="file" id="file" name="file"&gt;
+&lt;br&gt;
+&lt;button type="submit"&gt;Absenden&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+</section>
+ 
+  <section id="lu8">
+<h2>Learningunit 8: Navigation (sehr basics)</h2>
+<p>Diese Einheit behandelt die Grundlagen der Navigation auf einer Webseite, einschließlich der Verwendung von Links und Menüs.</p>
+<pre><code>&lt;!-- Beispielcode für Navigation --&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#about"&gt;Über uns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#contact"&gt;Kontakt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+ 
+&lt;!-- Sprungmarken --&gt;
+&lt;h2 id="home"&gt;Startseite&lt;/h2&gt;
+&lt;p&gt;Willkommen auf der Startseite.&lt;/p&gt;
+ 
+&lt;h2 id="about"&gt;Über uns&lt;/h2&gt;
+&lt;p&gt;Informationen über uns.&lt;/p&gt;
+ 
+&lt;h2 id="contact"&gt;Kontakt&lt;/h2&gt;
+&lt;p&gt;Kontaktinformationen.&lt;/p&gt;</code></pre>
+</section>
+ 
   <footer>
-    
-  </footer>
+<p>&copy; 2024 Modul 293 Zusammenfassung</p>
+</footer>
 </body>
 </html>
